@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out {
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            transition: 4s;
+            text-align: center;
+            line-height: 200px;
+        }
+        .out:hover .box {
+            border-radius: 100%;
+            margin-left: 300px;
+            background: red;
+            border: 5px yellow dashed;
+            webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <!--CSS zcombinatoer là cachs viết css cho các thẻ htmlcos liên quan tới nhau 
+    nếu thấy dấu ~, +, > là css bình thường thôi
+    Hover là hiệu ứng khi di chuột qua thì sẽ thay đổi hiệu ứng của phần tử
+    -->
+    <!-- Tạo 1 div với w 200 h 200 màu xanh khi hover lên thì chuyển thành hình tròn đỏ
+    2. Nhay sang phai 300px
+    3. Viền dày 5px màu vàng, nét đứt-->
+    <div class="out">
+        <div class="box">Hello</div>
+    </div>
+    
+    
+</body>
+</html>

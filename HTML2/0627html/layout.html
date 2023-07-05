@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .head {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 25%;
+        height: 150px;
+        border: 1px solid;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .banner {
+        width: calc(75% - 14px);
+        height: 150px;
+        border: 1px solid;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 50px;
+        border: 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .main {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+
+    .Cot1 {
+        width: 20%;
+        height: 600px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .o1 {
+        width: 100%;
+        height: 150px;
+        border: 1px solid;
+    }
+
+    .o2 {
+        width: 100%;
+        height: 300px;
+        border: 1px solid;
+        margin-top: 10px;
+    }
+
+    .Cot2 {
+        width: 50%;
+        height: 600px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .on1 {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .hon1 {
+        width: 50%;
+        height: 150px;
+        border: 1px solid;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .hon2 {
+        width: calc(50% - 14px);
+        height: 150px;
+        border: 1px solid;
+        float: left;
+    }
+
+    .on2 {
+        width: 100%;
+        height: 450px;
+    }
+
+    .item {
+        width: calc(33.33% - 12px);
+        height: 210px;
+        border: 1px solid;
+        float: left;
+        margin: 5px;
+    }
+
+    .Cot3 {
+        width: calc(30% - 26px);
+        height: 600px;
+        float: left;
+    }
+
+    .o31 {
+        width: 100%;
+        height: 600px;
+        border: 1px solid;
+    }
+
+    .footer {
+        width: 100%;
+        height: 50px;
+        border: 1px solid;
+    }
+    @media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  } * {
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Cot1 {
+    display: none;
+  } 
+  .Cot2 {
+    width: 60%;
+    height: 600px;
+    margin-right: 10px;
+    float: left;
+  }
+  .Cot3 {
+    width: calc(40% - 26px);
+    height: 600px;
+    float: left;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Cot3 {
+    display: none;
+  }
+  .Cot2 {
+    width: 100%;
+    height: 600px;
+    margin-right: 10px;
+    float: left;
+  }
+}
+</style>
+
+<body>
+    <div class="head">
+        <div class="logo"></div>
+        <div class="banner"></div>
+    </div>
+    <div class="menu"></div>
+    <div class="main">
+        <div class="Cot1">
+            <div class="o1"></div>
+            <div class="o2"></div>
+        </div>
+        <div class="Cot2">
+            <div class="on1">
+                <div class="hon1"></div>
+                <div class="hon2"></div>
+            </div>
+            <div class="on2">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+        </div>
+        <div class="Cot3">
+            <div class="o31"></div>
+        </div>
+    </div>
+    <div class="footer"></div>  
+</body>
+</html>

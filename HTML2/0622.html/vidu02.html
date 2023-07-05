@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box , .box1 {
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            animation-name: hu;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+        .box1 {
+            background: blue;
+            animation-name: hu;
+            animation-duration: 2s;
+            animation-delay: 2s;
+        }
+        @keyframes hu {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        1. Trang web trắng, 
+        sau 1s hiện 1 hình vuông đỏ, 
+        sau 2s thì hiện thêm 1 hình vuông xanh 
+        opacity: 1 = hiện;
+        opacity: 0 = ẩn;
+     -->
+
+     <div class="box"></div>
+     <div class="box1"></div>
+</body>
+</html>
