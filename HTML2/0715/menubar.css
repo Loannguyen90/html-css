@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu_bar {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    margin-left: 10px;
+}
+.nav {
+    width: 40%;
+    display: flex;
+}
+.nav-item {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item:hover {
+    background: lightcyan;
+    border-radius: 5px;
+}
+.nav-item img {
+    width: 30px;
+}
+.acc {
+    display: flex;
+    gap: 5px;
+}
+.acc-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
