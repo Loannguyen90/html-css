@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Patrick+Hand&family=Poppins:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #8d44ad9f;
+    height: 100hv;
+    overflow: hidden;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver ;
+}
